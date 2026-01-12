@@ -177,7 +177,7 @@ I'm always open to discussing:
 - 🎓 **Education** and knowledge sharing
 - 🚀 **Startup** ideas and technical partnerships
 
-**Want to build something amazing together?** [Send me an email](mailto:claucondor@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/oydual3/)!
+**Want to build something amazing together?** [Send me an email](mailto:claucondor@gmail.com)!
 
 ---
 
