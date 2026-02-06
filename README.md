@@ -31,6 +31,8 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 **Stablecoin Infrastructure** -- Creating fiat-backed stablecoin systems with minting/burning mechanics, compliance tooling, and token bridge infrastructure.
 
+**DeFi Education in Cadence** -- Running independent sessions teaching DeFi development on Flow using Cadence, with comparative analysis against EVM (Solidity) and Solana architectures.
+
 ---
 
 ## Tech Stack
@@ -42,6 +44,7 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Move](https://img.shields.io/badge/Move-5C3EE8?style=for-the-badge&logoColor=white)
+![Cadence](https://img.shields.io/badge/Cadence-00EF8B?style=for-the-badge&logo=flow&logoColor=black)
 ![Clarity](https://img.shields.io/badge/Clarity-5546FF?style=for-the-badge&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -88,13 +91,13 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=claucondor&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/claucondor)
+[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=claucondor&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/claucondor)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=claucondor&layout=compact&theme=tokyonight&langs_count=8)](https://github.com/claucondor)
+[![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=claucondor&layout=compact&theme=tokyonight&langs_count=8)](https://github.com/claucondor)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=claucondor&theme=tokyonight)](https://github.com/claucondor)
+[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app/?user=claucondor&theme=tokyonight)](https://github.com/claucondor)
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=claucondor&theme=tokyonight&no-frame=true&column=7)](https://github.com/claucondor)
+[![Trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=claucondor&theme=tokyonight&no-frame=true&column=7)](https://github.com/claucondor)
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=claucondor&theme=tokyo-night)](https://github.com/claucondor)
 
@@ -128,8 +131,8 @@ Clients: A0x Company, MORE Markets -- AI agent platforms, DeFi protocol architec
 **Universidad de los Andes** -- Professor (01/2020 - 05/2024)
 Signals, Embedded Systems, Control & Automation. Introduced Rust programming into the engineering curriculum.
 
-**Freelance Blockchain Developer** (08/2023 - 12/2023)
-Cross-chain bridge solutions, DeFi protocols, and Solana program optimization.
+**Blockchain Researcher & Freelance Developer** (2018 - 12/2023)
+Early Ethereum research at university, evolving into hands-on development. Cross-chain bridge solutions, DeFi protocols, and Solana program optimization.
 
 ---
 
