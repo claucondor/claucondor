@@ -19,7 +19,7 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 ## What I'm Building
 
-**AI Agent Platforms** -- Designing agent architectures with persistent memory systems, blockchain-based identity, and autonomous on-chain execution.
+**AI Agent Platforms** -- Designing agent architectures with persistent memory systems, blockchain-based identity, and autonomous on-chain execution. Focused on making agents smarter with smaller models, optimizing costs through RAG, ReRAG, and multivector search pipelines.
 
 **DeFi Protocols** -- Building lending protocols, liquidation engines, vault architecture, and flash loan integrations for decentralized markets.
 
@@ -107,19 +107,40 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 ## Research Interests
 
-I actively follow and experiment with new Ethereum standards and protocol upgrades. Some areas I'm currently digging into:
+### AI Agent Architecture
 
-**EIP-7702 -- EOA Account Code Delegation** -- The Pectra upgrade's biggest change. Lets any EOA temporarily act as a smart contract in a single transaction -- enabling batching, gas sponsorship, and session keys without migrating to a new wallet. This combined with ERC-4337 makes every Ethereum account a smart account.
+I care about making agents genuinely smarter, not just throwing bigger models at the problem. Areas I'm actively working on:
 
-**ERC-7579 -- Modular Smart Accounts** -- A vendor-neutral plugin system for smart accounts (validators, executors, hooks, fallback handlers). Adopted by Safe, Biconomy, ZeroDev, and OKX. Think ERC-20 but for smart account modules -- this is how account abstraction becomes composable.
+- **Cost-efficient inference** -- Getting strong results from small models through careful prompt engineering, fine-tuning, and routing. Not every task needs GPT-4.
+- **RAG & ReRAG pipelines** -- Retrieval-augmented generation with re-ranking and iterative retrieval loops for agents that actually find the right context.
+- **Multivector search** -- Dense + sparse hybrid retrieval for agent memory systems. ColBERT-style late interaction models for precision when it matters.
+- **Persistent memory architectures** -- Long-term memory systems for agents that learn, forget gracefully, and build real context over time.
 
-**ERC-6551 -- Token Bound Accounts** -- Every NFT gets its own smart contract wallet. A game character can own its inventory, currencies, and permissions. Transferring the NFT transfers everything it owns. Changes what an NFT fundamentally *is*.
+### Applied Mathematics in DeFi
 
-**ERC-4626 -- Tokenized Vaults** -- The standard interface for yield-bearing vaults. Now the backbone of composable DeFi -- Yearn, Aave, Balancer all use it. Essential for anyone building lending, yield, or RWA protocols.
+Math is at the core of how I design protocols. In my prediction markets work I implemented:
 
-**ERC-404 -- Semi-Fungible Tokens** -- Experimental hybrid of ERC-20 and ERC-721. Buying 1.0 token auto-mints a linked NFT; selling fractions burns it. Solves NFT liquidity natively without fractionalization protocols. Interesting design pattern even if you don't adopt it directly.
+- **Gaussian AMM (pm-AMM)** -- Pricing via the standard normal CDF/PDF (Abramowitz-Stegun approximation), achieving uniform Loss-Versus-Rebalancing across all price levels.
+- **LMSR (Logarithmic Market Scoring Rule)** -- Hanson's cost function `C(q) = b * ln(sum(e^(q_i/b)))` for multi-outcome markets with bounded market maker loss.
+- **Fixed-point numerical methods** -- Taylor series for `e^x`, binary search for swap outputs preserving AMM invariants, Newton's method for integer square roots. All at 8-decimal precision in Clarity.
+- **Game-theoretic mechanisms** -- Exponential bond escalation for dispute resolution, quadratic voting with reputation decay, and vote-escrow (veCRV-style) governance.
+- **Dynamic liquidity & fee models** -- Time-dependent liquidity `L(t) = L0 * sqrt((T-t)/T)` and exponential fee curves to protect LPs from informed traders near resolution.
 
-**EIP-7691 & EIP-7594 -- Blob Scaling (Pectra + Fusaka)** -- Pectra doubled blob capacity (3 to 6 target); Fusaka shipped PeerDAS, reducing per-validator blob download by ~85%. Together they're reshaping L2 economics and data availability costs.
+### Software Architecture
+
+- **Clean code over vibe coding** -- I care about readable, maintainable code. Clear abstractions, minimal complexity, no unnecessary cleverness.
+- **Protocol design** -- Layered contract architectures with separation of concerns. Math libraries, core logic, and integration layers as distinct modules.
+
+### Ethereum Standards
+
+I actively follow and experiment with new ERC/EIP proposals:
+
+- **EIP-7702** -- EOA account code delegation (Pectra). Every EOA becomes a smart account: batching, gas sponsorship, session keys without wallet migration.
+- **ERC-7579** -- Modular smart accounts. Vendor-neutral plugin system (validators, executors, hooks). Adopted by Safe, Biconomy, ZeroDev. The ERC-20 of account abstraction.
+- **ERC-6551** -- Token Bound Accounts. NFTs with their own wallets. Transfer the NFT, transfer everything it owns.
+- **ERC-4626** -- Tokenized Vaults. The backbone of composable DeFi yield. Essential for lending, yield, and RWA protocols.
+- **ERC-404** -- Semi-fungible tokens. ERC-20/721 hybrid that solves NFT liquidity natively. Interesting design pattern.
+- **EIP-7691 & EIP-7594** -- Blob scaling (Pectra + Fusaka). Doubled blob capacity + PeerDAS. Reshaping L2 economics and data availability costs.
 
 ---
 
@@ -127,6 +148,9 @@ I actively follow and experiment with new Ethereum standards and protocol upgrad
 
 **Independent Blockchain Engineer** (2024 - Present)
 Clients: A0x Company, MORE Markets -- AI agent platforms, DeFi protocol architecture, smart contract development across Solana, EVM, and Move chains.
+
+**ConquerX (Conquer Blocks)** -- Instructor (Current)
+Teaching EVM and Solana development modules. Active mentor and technical support for students.
 
 **Universidad de los Andes** -- Professor (01/2020 - 05/2024)
 Signals, Embedded Systems, Control & Automation. Introduced Rust programming into the engineering curriculum.
