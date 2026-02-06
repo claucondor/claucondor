@@ -23,6 +23,8 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 **DeFi Protocols** -- Building lending protocols, liquidation engines, vault architecture, and flash loan integrations for decentralized markets.
 
+**Uniswap V4 Hooks & AMM Design** -- Building custom hooks for Uniswap V4 pools, including KOL-gated liquidity strategies. Graduate of the Uniswap Hook Incubator (Cohort 5, Atrium Academy).
+
 **Prediction Markets & On-Chain Derivatives** -- Developing prediction market contracts and derivative instruments on Bitcoin L2s.
 
 **Cross-Chain Mobile Wallets** -- Engineering mobile wallet experiences on Move-based chains (Aptos) with seamless cross-chain asset management.
@@ -55,6 +57,7 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 **Tools**
 
+![Uniswap V4](https://img.shields.io/badge/Uniswap_V4-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)
 ![Foundry](https://img.shields.io/badge/Foundry-1C1C1C?style=for-the-badge&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
 ![Anchor](https://img.shields.io/badge/Anchor-7C3AED?style=for-the-badge&logoColor=white)
@@ -71,8 +74,9 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 
 ## Hackathon Wins
 
-| Place | Hackathon | Date |
-|:------|:----------|:-----|
+| Place | Hackathon / Program | Date |
+|:------|:---------------------|:-----|
+| Graduate | Uniswap Hook Incubator - Cohort 5 (Atrium Academy) | 2025 |
 | 1st Place | The First Fully-Autonomous Hackathon | Dec 2024 |
 | 1st Place | Based Latam International Hackathon | Nov 2024 |
 | 3rd Place | Oasis Network Privacy4Web3 Hackathon | Nov 2024 |
@@ -95,6 +99,24 @@ Independent Blockchain Engineer and AI Systems Architect based in Latin America.
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=claucondor&theme=tokyo-night)](https://github.com/claucondor)
 
 </div>
+
+---
+
+## Research Interests
+
+I actively follow and experiment with new Ethereum standards and protocol upgrades. Some areas I'm currently digging into:
+
+**EIP-7702 -- EOA Account Code Delegation** -- The Pectra upgrade's biggest change. Lets any EOA temporarily act as a smart contract in a single transaction -- enabling batching, gas sponsorship, and session keys without migrating to a new wallet. This combined with ERC-4337 makes every Ethereum account a smart account.
+
+**ERC-7579 -- Modular Smart Accounts** -- A vendor-neutral plugin system for smart accounts (validators, executors, hooks, fallback handlers). Adopted by Safe, Biconomy, ZeroDev, and OKX. Think ERC-20 but for smart account modules -- this is how account abstraction becomes composable.
+
+**ERC-6551 -- Token Bound Accounts** -- Every NFT gets its own smart contract wallet. A game character can own its inventory, currencies, and permissions. Transferring the NFT transfers everything it owns. Changes what an NFT fundamentally *is*.
+
+**ERC-4626 -- Tokenized Vaults** -- The standard interface for yield-bearing vaults. Now the backbone of composable DeFi -- Yearn, Aave, Balancer all use it. Essential for anyone building lending, yield, or RWA protocols.
+
+**ERC-404 -- Semi-Fungible Tokens** -- Experimental hybrid of ERC-20 and ERC-721. Buying 1.0 token auto-mints a linked NFT; selling fractions burns it. Solves NFT liquidity natively without fractionalization protocols. Interesting design pattern even if you don't adopt it directly.
+
+**EIP-7691 & EIP-7594 -- Blob Scaling (Pectra + Fusaka)** -- Pectra doubled blob capacity (3 to 6 target); Fusaka shipped PeerDAS, reducing per-validator blob download by ~85%. Together they're reshaping L2 economics and data availability costs.
 
 ---
 
